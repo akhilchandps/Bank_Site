@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign up</title>
+  <script src="./script.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+  crossorigin="anonymous"></script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+</head>
+<style>
+
+  *{
+    font-family: Poppins;
+  }
+.offcanvas-body ul li a
+{
+    border-radius: 10px;
+    transition: 0.3s;
+}
+.offcanvas-body ul li .a1:hover
+{
+    background-color: #2d5092;
+    transform: translate(0,-7px);
+    border-radius: 10px;
+    color: white;
+}
+</style>
+<body style="background-image:url(./img/pos-credit-card-settlement-instead-cash-settlement-shopping.jpg); background-size: cover; ">
+ <!-- navbar............ -->
+ <nav class="navbar navbar-expand-lg bg-light bg-body-expand -tertiary fixed-top">
+  <div class="container-fluid">
+    <a class="navbar-brand " href="#"><h1 class="head ms-5"><img src="https://www.websterbank.com/wp-content/uploads/2021/08/Webster-Bank-lock-up-RBG-3-1.svg" alt="" height="55px" width="225px"></h1></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body" style="font-size: 18px;">
+        <ul class="navbar-nav justify-content-end flex-grow-1">
+          <li class="nav-item me-5">
+            <a class="nav-link  a1"  href="./index.html">Home</a>
+          </li>
+          <li class="nav-item me-5">
+            <a class="nav-link  a1" href="#contact">Services</a>
+          </li>
+          <li class="nav-item me-5">
+            <a class="nav-link a1" href="#">Contacts</a>
+          </li>
+          <li class="nav-item me-5 ">
+              <a class='nav-link' href='./login.html' style=" background-color: #2d5092; color: white; border-radius: 10px;">Login</a>
+            </li>
+
+            <li class="nav-item me-5 ">
+              
+              <a class="nav-link active signin text-light px-3" aria-current="page" href="#">Sign in</a>
+            </li>
+        
+        </ul>
+       
+      </div>
+    </div>
+  </div>
+</nav>
+
+
+<div class="container-fluid">
+<div class="row row-cols-1 row-cols-md-2 g-4 " style="display: flex; align-items:center ; justify-content: center; margin-top: 75px;" >
+  <div class="col" style=" border-radius: 30px; width: 600px;">
+    <div class="card px-5 py-5"  style="background-color: rgba(0,0,0,0.7); height: 510px; color: white; border-radius: 30px;  box-shadow: 3px 3px 4px black;   backdrop-filter: blur(10px);" >
+      <h1 class="text-center pb-3">Sign up</h1>
+      <form >
+        <label for="" class="mb-2" style="font-weight: 600; font-size: 15px;">Username</label>
+        <input type="text" class="form-control" placeholder="Enter youe username" id="uname">
+        <label for="" class="mt-3 mb-2"  style="font-weight: 600; font-size: 15px;">Account Number</label>
+        <input type="text" class="form-control" placeholder="Account number" id="acno">
+        <label for=""  class="mt-3 mb-2"  style="font-weight: 600; font-size: 15px;">Password</label>
+        <input type="text" class="form-control" placeholder="password" id="pwd">
+        <div class="d-grid gap-3 col-10 mx-auto" style="margin-top:28px;" >
+          <button onclick="Register()"  class="btn  rounded-5" type="button" data-mdb-ripple-init style="background-color: #8b73bb; color: white; ">Register</button> 
+        </div>
+    
+        <div class="li mt-4" >
+          <ul type="none" style="display: flex; justify-content: space-between;">
+              <li>Already have an account? <a href="./index.html" class="text-light">login</a> </li>
+              <li><a href="" class="text-light">Forgot password</a></li>
+          </ul>
+        </div>
+
+
+      </form>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./script.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+ 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+
+</head>
+
+<style>
+*{
+  font-family: Poppins;
+}
+.card input
+{
+  margin-top: 30px;
+
+}
+.row{
+  margin: auto;
+  position: relative;
+  top: 90px;
+
+}
+.row .col 
+{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+.card{
+  width: 500px;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 30px;
+
+}
+.row .card .card-body h5{
+ color: white;
+}
+body
+{
+  background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(./img/pexels-pixabay-259132.jpg);
+  background-size: cover;
+  background-position:top;
+  
+}
+
+#headd
+{
+  text-shadow: 3px 3px 8px grey;
+  font-family:Oleo Script;
+  color: rgb(153, 113, 190);
+}
+
+.offcanvas-body ul li a
+{
+    border-radius: 10px;
+    transition: 0.3s;
+}
+.offcanvas-body ul li .a1:hover
+{
+    background-color: #2d5092;
+    transform: translate(0,-7px);
+    border-radius: 10px;
+    color: white;
+}
+.offcanvas-body ul li .a2:hover
+{
+    background-color: #2d5092;
+    transform: translate(0,-7px);
+    border-radius: 10px;
+    color: white;
+}
+.offcanvas-body ul li .a3:hover
+{
+    background-color: #2d5092;
+    transform: translate(0,-7px);
+    border-radius: 10px;
+    color: white;
+}
+</style>
+
+
+
+<body>
+
+
+
+     <!-- navbar............ -->
+     <nav class="navbar navbar-expand-lg bg-light bg-body-expand -tertiary fixed-top ">
+      <div class="container-fluid">
+        <a class="navbar-brand " href="#"><h1 class="head ms-5"><img src="https://www.websterbank.com/wp-content/uploads/2021/08/Webster-Bank-lock-up-RBG-3-1.svg" alt="" height="55px" width="240px"></h1></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body" style="font-size: 18px;">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-5">
+              <li class="nav-item me-5">
+                <a class="nav-link a1 "  href="#">Home</a>
+              </li>
+              <li class="nav-item me-5">
+                <a class="nav-link a2" aria-current="page" href="#">Services</a>
+              </li>
+              <li class="nav-item me-5 ">
+                  <a class="nav-link a3"  href="#">Settings</a>
+                </li>
+
+                <li class="nav-item me-5 ">
+                  
+                  <a class='nav-link bg-danger text-light ' href='./login.html'>Logout</a>
+                </li>
+            
+            </ul>
+           
+          </div>
+        </div>
+      </div>
+    </nav>
+
+         <div>
+          <h1 class="head text-center" style="position: relative; top: 120px; padding: 10px; text-transform: capitalize; font-family:Merriweather; font-size: 48px; color: white; background-color: rgba(166, 173, 231, 0.7); border-radius:40px; font-weight: 700;" id="headd">Welcome</h1>
+         </div>
+    <div class="row row-cols-1 row-cols-md-2 g-4 " style="margin-top: 50px;">
+        <div class="col ">
+          <div class="card py-4 px-3">
+            <div class="card-body">
+              <h5 class="card-title text-center fs-1"  style="text-shadow: 3px 3px 8px rgb(99, 98, 98);">Deposit</h5>
+             <form>
+              <input type="text" class="form-control" placeholder="Enter the amount" id="amount">
+              <input type="password" class="form-control" placeholder="Enter your password" id="passw">
+              <div class="mt-5 text-center">
+                <button type="button" class="btn btn-primary" onclick="deposit()">Deposit</button>
+              </div>
+          
+              <h3 id="result" class="mt-4 text-center"></h3>
+             </form>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card py-4 px-3">
+            <div class="card-body">
+              <h5 class="card-title text-center fs-1" style="text-shadow: 3px 3px 8px rgb(99, 98, 98);">Withdraw</h5>
+              <form>
+                <input type="text" class="form-control" placeholder="Enter the amount" id="amount2">
+                <input type="password" class="form-control" placeholder="Enter your password" id="passw2">
+                <div class="mt-5 text-center">
+                  <button type="button" class="btn btn-primary" onclick="withdraw()">Withdraw</button>
+                </div>
+               </form>
+               <h3 id="result2" class="mt-4 text-center"></h3>
+            </div>
+          </div>
+        </div>
+    
+      </div>
+</body>
+</html>
+
+
+<script> 
+data3= localStorage.getItem("USER");
+console.log(data3);
+headd.innerHTML=`Welcome ${data3}`
+
+store=localStorage.getItem("pas")
+console.log(store);
+
+store2=localStorage.getItem("bal")
+console.log(store2);
+
+</script>
+
