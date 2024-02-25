@@ -459,3 +459,207 @@ html{
    top: 2000px;
   }  
 }
+
+
+
+@media screen and (max-width:1024px)
+{
+    body
+    {
+        background-color: black;
+    }
+    .navbar-brand img
+    {
+        width: 180px;
+    }
+     #log{
+     background-color: #2d5092;
+     color: white;
+     border-radius: 5px;
+     border-radius: 10px;
+    }
+    #navbarNav{
+        position: absolute;
+        right: 160px;
+      
+    }
+    .navbar
+    
+    {
+        height: 80px;
+    }
+    
+    
+    .offcanvas-body ul li a
+    {
+        border-radius: 10px;
+        transition: 0.3s;
+    }
+    .offcanvas-body ul li a:hover
+    {
+        background-color: #2d5092;
+        transform: translate(0,-7px);
+        border-radius: 10px;
+        color: white;
+    }
+    .home
+    {
+        background-image: url(./img/GettyImages-1199863515-1920x600-1-1440x450.jpg);
+        width: 100%;
+        height: 630px;
+        background-size: contain;
+        background-repeat: no-repeat;
+         margin-top: 80px;
+    
+    }
+    .home .content
+    {
+     background-color:rgba(8, 10, 104, 0.6);
+     color: white;
+     width: 100%;
+     height: 550px;
+     font-size: 20px;
+     position: relative;
+     top: 125px;
+
+    }
+    .home .content h1
+    {
+       padding-top: 70px;
+       padding-bottom: 40px;
+       padding-left: 40px;
+       padding-right: 40px;
+      ;
+      
+    }
+    .home .content p
+    {
+       padding-top: 20px;
+       padding-bottom: 40px;
+       padding-left: 20px;
+       padding-right: 20px;
+      
+    }
+    .container-fluid .row
+    {
+        margin-top: 60px;
+        margin-left: 10px;
+    
+    }
+    
+    
+    
+    .row1
+    {
+        display: flex;
+        flex-direction: column;
+        margin-top: 80px;
+        align-items: center;
+        justify-content: center;
+    }
+    .row1 .col1 p
+    {
+      text-align: justify;
+     padding-right: 20px;
+     padding-left: 20px;
+
+     margin-top: 0px;
+     font-size: 18px;
+    
+    }
+    .row1 .col1 h1
+    {
+      
+     color: #2d5092;
+     margin-bottom: 20px;
+    }
+    .row1 .col1 img
+    {
+      width: 300px;
+      /* height: 200px; */
+      object-fit: contain;
+      margin-top: 50px;
+    
+    }
+    
+    
+    .row2
+    {
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+        align-items: center;
+        justify-content: center;
+    }
+    .row2 .col1 p
+    {
+      text-align: justify;
+     padding-left: 20px;
+     padding-right: 20px;
+     margin-top: 30px;
+     font-size: 20px;
+    }
+    .row2 .col1 h1
+    {
+      
+     color: #2d5092;
+    }
+    .row2 .col1 img
+    {
+      width: 300px;
+      object-fit: contain;
+    }
+
+
+    /* //row5 */
+ .row5 .card-body  h5
+{ 
+  font-size: 27px;
+}
+
+.row5{
+   
+   display: flex;
+   justify-content: space-between;
+    background-color: none;
+    width: 100%;
+   
+}
+.row5 .col .card
+{  
+    width: 300px;
+  height: 450px;
+   margin-top: 30px;
+   margin-bottom: 20px;
+   box-shadow: 3px 3px 8px rgb(112, 112, 112);
+   transition: 0.5s;
+    margin: auto;
+    margin-top: 120px;
+
+}
+.row5 .col .card .card-body a
+{
+   color: rgba(41, 38, 216, 0.6);
+}
+
+.row5 .col .card:hover{
+    transform: translate(0,-10px);
+}
+#h12
+{
+    margin-top: 500px;
+}
+
+
+/* //card2 */
+.card2
+{
+  display: none;
+}  
+
+  footer
+  {
+   position: relative;
+   top: 2000px;
+  }  
+}
