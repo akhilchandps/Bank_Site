@@ -27,7 +27,7 @@ function login() {
     pass=pwwd.value;
     if(acc =="" || pass =="")
     {
-       alert("please enter username and password")
+       alert("please enter Account number and password")
     } 
    else if(acc in localStorage){
         accDetails=JSON.parse(localStorage.getItem(acc))
@@ -38,7 +38,7 @@ function login() {
             window.location= `./main.html`;
         }
         else{
-            alert("invalid username or password")
+            alert("invalid password")
         }
     }
     else{
